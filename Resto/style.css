@@ -1,0 +1,64 @@
+/* estilo do meu botão */
+body {
+    margin-top: 100px;
+    color: darkgreen;
+}
+button {
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+h1 {
+    font-size: 50px;
+    color: pink;
+}
+
+.meuh1 {
+    color: red;
+}
+header {
+    /* colocar o header no topo */
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+    display: flex; /* para alinhar os elementos */
+    justify-content: center;
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer {
+    /* colocar o footer no final */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,2 @@
+Abrir com Live Server. Alternativa: python -m http.server 8000
+Necessita de Internet para carregar Three.js.

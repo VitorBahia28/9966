@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(43, 40, 40);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+img{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+.botoes{
+    padding: 15px, 40px;
+    font-size: 20px;
+    border: none;
+    background-color: #00b4ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+.botoes:hover{
+    background-color: #ff9800;
+    transform: scale(1.1);
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    perspective: 800px;
+}

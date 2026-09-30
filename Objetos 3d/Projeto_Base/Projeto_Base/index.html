@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Sistema 3D – Three.js</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;overflow:hidden;font-family:Arial,sans-serif;background:#101827;color:white}
+.painel{position:fixed;z-index:10;top:18px;left:18px;padding:16px;background:rgba(15,23,42,.82);border-radius:14px;backdrop-filter:blur(8px)}
+.painel h1{font-size:18px;margin:0 0 10px}
+button{padding:9px 12px;margin:3px;border:0;border-radius:8px;cursor:pointer;font-weight:bold}
+canvas{display:block}
+</style>
+</head>
+<body>
+<div class="painel">
+<h1>Sistema 3D</h1>
+<button id="pausa">Pausar</button>
+<button id="lento">Lento</button>
+<button id="normal">Normal</button>
+<button id="rapido">Rápido</button>
+<button id="reset">Reset</button>
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

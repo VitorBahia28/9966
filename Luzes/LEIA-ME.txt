@@ -1,0 +1,3 @@
+Projeto completo e funcional.
+Abrir com Live Server ou executar: python -m http.server 8000
+Necessita de Internet para carregar Three.js por CDN.
